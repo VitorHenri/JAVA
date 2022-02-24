@@ -13,7 +13,7 @@ public class EvenOdd {
         Jogador pc = new Jogador();
         p1.setNome();
         p1.setEscolha();
-
+ 
         if (p1.getEscolha() == 0) {
             pc.setEscolha(1);
         } else {
