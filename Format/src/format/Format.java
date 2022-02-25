@@ -38,7 +38,9 @@ public class Format {
         double price2 = 650.50;
         double measure = 53.234567;
         System.out.printf("Products:%n%s, wich price is %.2f%n%s, wich price is %.2f%n%nRecord: %d years old,code %d and gender: %s%n%nMeasue with eight decimal places: %f%nRouded (three decimal places):%.3f%nUS decimal point:%.3f",product1,price1,product2,price2,age,code,gender,measure,measure,measure);
-        
+        int a =5;
+        float b = 5f;
+        a = (int)b;
     }
     
 }
